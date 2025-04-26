@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: rgb(216, 216, 216);
+}
+
+header{
+    background: rgb(136, 1, 1);
+}
+
+header h1{
+    padding: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
+    color: white;
+}
+
+i#burguer{
+    background-color: rgb(124, 4, 4);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: rgb(153, 8, 8);
+    color: white;
+    transition: 0.4s;
+}
+
+.quotation-hr{
+    border: none;
+    height: 1px;
+    margin-top: 2px;
+    margin: auto;
+    background: #000000;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.quotation{
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2.5px;
+    padding: 1px;
+}
+
+article h1{
+    text-align: center;
+}
+
+.subititle{
+    color: rgb(53, 53, 53);
+    font-size: 19px;
+    margin-bottom: 9px;
+}
+
+.subititle strong{
+    font-weight: bolder;
+    color: rgb(136, 1, 1);
+}
+
+.date{
+    margin-top: 0;
+    color: rgb(53, 53, 53);
+    font-size: 15px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+menu{
+    display: block;
+}
+
+menu ul{
+    list-style: none;
+}
+
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(150, 8, 8, 0.548);
+    color: white;
+    border-top: 0.5px solid white;
+} 
+
+menu > ul > li > a:hover{
+    background-color: rgb(180, 22, 22);
+    transition: 0.8s;
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > p{
+    font-weight: lighter;
+    font-size: 19px;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    margin-bottom: 8px;
+}
+
+article > li{
+    margin-left: 90px;
+}
+
+article li{
+    font-size: 19px;
+    margin-left: 20px;
+}
+
+mark{
+    font-weight: normal;
+    color: black;
+    background: rgba(255, 150, 150, 0.808);
+}
